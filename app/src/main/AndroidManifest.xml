@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.metalgear.gamefo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:debuggable="true">
+        <activity
+            android:name=".GameFoMain"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Bloodborne"
+            android:label="@string/title_activity_bloodborne"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Locations"
+            android:label="@string/title_activity_locations"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HuntersDream"
+            android:label="@string/title_activity_hunters_dream"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TheOldHunters"
+            android:label="@string/title_activity_the_old_hunters"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ChaliceDungeons"
+            android:label="@string/title_activity_chalice_dungeons"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".IosefkasClinic"
+            android:label="@string/title_activity_iosefkas_clinic"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CathedralWard"
+            android:label="@string/title_activity_cathedral_ward"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OldYharnam"
+            android:label="@string/title_activity_old_yharnam"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HealingChurchWorkshop"
+            android:label="@string/title_activity_healing_church_workshop"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UpperCathedralWard"
+            android:label="@string/title_activity_upper_cathedral_ward"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ForbiddenWoods"
+            android:label="@string/title_activity_forbidden_woods"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Byrgenwerth"
+            android:label="@string/title_activity_byrgenwerth"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HemwickCharnelLane"
+            android:label="@string/title_activity_hemwick_charnel_lane"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".YahargalUnseenVillage"
+            android:label="@string/title_activity_yahargal_unseen_village"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ForsakenCastleCainhurst"
+            android:label="@string/title_activity_forsaken_castle_cainhurst"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AbandonedOldWorkshop"
+            android:label="@string/title_activity_abandoned_old_workshop"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NightmareFrontier"
+            android:label="@string/title_activity_nightmare_frontier"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LectureBuilding"
+            android:label="@string/title_activity_lecture_building"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NightmareOfMensis"
+            android:label="@string/title_activity_nightmare_of_mensis"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CentralYharnam"
+            android:label="@string/title_activity_central_yharnam"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Enemies"
+            android:label="@string/title_activity_enemies"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Test"
+            android:label="@string/title_activity_test"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NPCs"
+            android:label="@string/title_activity_npcs"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>
